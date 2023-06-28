@@ -52,7 +52,7 @@ const Feature = () => {
             >
               <ol className="relative border-l border-gray-200 dark:border-gray-700">
                 <li className="mb-5 ml-4">
-                  <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                  <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                   <p className="mb-4 text-base font-normal text-black-600 dark:text-black-600">
                     "Bakat Komunikasi Sudah Ada Sejak Kecil Arie Aripin lahir di
                     Kota Malang. Sejak kecil Arie sudah berbakat untuk
@@ -60,7 +60,7 @@ const Feature = () => {
                   </p>
                 </li>
                 <li className="mb-5 ml-4">
-                  <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                  <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                   <p className="text-base font-normal text-black-600 dark:text-black-600">
                     Jenjang pendidikan yang hanya sampai di bangku SMP tetap
                     mampu menghantarkan Arie untuk berkeliling dunia. Selepas
@@ -70,7 +70,7 @@ const Feature = () => {
                   </p>
                 </li>
                 <li className="mb-5 ml-4">
-                  <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                  <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                   <p className="text-base font-normal text-black-600 dark:text-black-600">
                     "Selama di Florida, Arie memutuskan untuk terjun ke dunia
                     pariwisata sehingga perusahaan yang ada di Amerika
@@ -79,7 +79,7 @@ const Feature = () => {
                   </p>
                 </li>
                 <li className="mb-5 ml-4">
-                  <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                  <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                   <p className="text-base font-normal text-black-600 dark:text-black-600">
                     "Berbekal pengalaman berkeliling dunia di beberapa negara,
                     Arie semakin bertekad untuk menggeluti di bidang kuliner
@@ -89,7 +89,7 @@ const Feature = () => {
                   </p>
                 </li>
                 <li className="mb-5 ml-4">
-                  <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                  <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                   <p className="text-base font-normal text-black-600 dark:text-black-600">
                     "Selepas pulang dari Amerika, Arie telah membuka hotel di
                     Bali dan Malaysia. Selain itu Arie juga mendirikan pabrik
@@ -98,7 +98,7 @@ const Feature = () => {
                   </p>
                 </li>
                 <li className="mb-5 ml-4">
-                  <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                  <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                   <p className="text-base font-normal text-black-600 dark:text-black-600">
                     "Ditunjuk menjadi Gastronom Internasional dan membawa
                     delegasi Indonesia ke Paris"
