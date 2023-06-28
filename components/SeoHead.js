@@ -4,18 +4,19 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: 'LaslesVPN',
-  siteName: 'LaslesVPN',
-  description:
-    'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
+  title: "Arie Aripin",
+  siteName: "Arie Aripin",
+  description: "Arie Aripin",
   // change base url of your web (without '/' at the end)
-  url: 'https://next-landing-vpn.vercel.app',
-  type: 'website',
-  robots: 'follow, index',
+  url: "http://arieconnection.info",
+  type: "website",
+  robots: "follow, index",
   // change with url of your image (recommended dimension = 1.91:1)
-  // used in twitter, facebook, etc. card when link copied in tweet/status 
-  image: 'https://next-landing-vpn.vercel.app/assets/card-image.png',
-  author: 'Lorem Ipsum'
+  // used in twitter, facebook, etc. card when link copied in tweet/status
+  image: "http://arieconnection.info/assets/arie.jpg",
+  author: "Lorem Ipsum",
+  keywords:
+    "arie aripin, pemerhati anak, pemerhati lingkungan, coffee, kopi, sociopreneur"
 };
 
 /**
@@ -63,7 +64,6 @@ const SeoHead = (props) => {
       <meta name='image' property='og:image' content={meta.image} />
       {/* Twitter */}
       <meta name='twitter:card' content='summary_large_image' />
-      <meta name='twitter:site' content='@F2aldi' />
       <meta name='twitter:title' content={meta.title} />
       <meta name='twitter:description' content={meta.description} />
       <meta name='twitter:image' content={meta.image} />

@@ -41,7 +41,8 @@ module.exports = {
         500: "#DDDDDD",
       },
       brown: {
-        500: "#8A3324"
+        500: "#8A3324",
+        400: "#DAA06D"
       }
     },
     extend: {},
