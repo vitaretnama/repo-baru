@@ -46,9 +46,12 @@ const Testimoni = ({
     },
     dotsClass: "slick-dots w-max absolute mt-20  ",
     infinite: true,
-    speed: 500,
+    speed: 5000,
     slidesToShow: 3,
     slidesToScroll: 2,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 770,
