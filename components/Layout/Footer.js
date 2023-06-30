@@ -10,26 +10,35 @@ const Footer = () => {
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
           <h1 className="text-2xl">Arie Aripin</h1>
           <div className="flex w-full mt-2 mb-8 -mx-2">
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Facebook className="h-6 w-6" />
-            </div>
+            <Link href="https://www.facebook.com/arie.aripin.984?mibextid=ZbWKwL">
+              <a target="_blank" rel="noopener noreferrer">
+                <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+                  <Facebook className="h-6 w-6" />
+                </div>
+              </a>
+            </Link>
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Twitter className="h-6 w-6" />
             </div>
             <Link href="https://www.instagram.com/jakartacoffee_/?hl=id">
-            <a target="_blank" rel="noopener noreferrer">
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Instagram className="h-6 w-6" />
-            </div>
-            </a>
+              <a target="_blank" rel="noopener noreferrer">
+                <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+                  <Instagram className="h-6 w-6" />
+                </div>
+              </a>
             </Link>
           </div>
-          <p className="text-black-600">©{new Date().getFullYear()} - ariearipin.info</p>
+          <p className="text-black-600">
+            ©{new Date().getFullYear()} - ariearipin.info
+          </p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">Arie Aripin</p>
           <ul className="text-black-500 ">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all" id="riwayat">
+            <li
+              className="my-2 hover:text-orange-500 cursor-pointer transition-all"
+              id="riwayat"
+            >
               Riwayat Hidup
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
