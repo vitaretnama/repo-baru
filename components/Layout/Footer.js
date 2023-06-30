@@ -2,6 +2,7 @@ import React from "react";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
+import Link from "next/link";
 const Footer = () => {
   return (
     <div className="bg-brown-400 pt-44 pb-24">
@@ -15,9 +16,13 @@ const Footer = () => {
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Twitter className="h-6 w-6" />
             </div>
+            <Link href="https://www.instagram.com/jakartacoffee_/?hl=id">
+            <a target="_blank" rel="noopener noreferrer">
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Instagram className="h-6 w-6" />
             </div>
+            </a>
+            </Link>
           </div>
           <p className="text-black-600">©{new Date().getFullYear()} - ariearipin.info</p>
         </div>

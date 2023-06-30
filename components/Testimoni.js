@@ -14,14 +14,9 @@ const Testimoni = ({
       text: "Pendapat Arie Aripin Mengenai Kopi Yang Sangat Filosofis",
     },
     {
-      image: "/assets/asean.jpg",
-      link: "https://pedulibangsa.co.id/arie-aripin-eratkan-persahabatan-indonesia-dan-malaysia/",
-      text: "Persahabatan Indonesia dengan Malaysia",
-    },
-    {
       image: "/assets/arie.jpg",
-      link: "https://jakartacoffee.id/company/index.html ",
-      text: "Biodata Arie Aripin Beserta Company Profile Beliau",
+      link: "https://tugumalang.id/gaungkan-gastronomi-malang-ke-dunia-bersama-arie-aripin-dan-chef-handry-wahyu/ ",
+      text: "Gaungkan Gastronomi Malang Ke Dunia",
     },
     {
       image: "/assets/anak.jpeg",

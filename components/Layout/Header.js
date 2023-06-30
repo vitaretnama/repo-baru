@@ -21,7 +21,7 @@ const Header = () => {
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-cols-3 gap-4 py-4 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            <h5 className="text-3xl">Arie Aripin</h5>
+            <h5 className="text-xl">Arie Aripin</h5>
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-6 text-black-500  items-start">
             <LinkScroll
