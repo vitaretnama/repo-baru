@@ -1,6 +1,5 @@
 import React from "react";
 import Facebook from "../../public/assets/Icon/facebook.svg";
-import Twitter from "../../public/assets/Icon/twitter.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
 import Link from "next/link";
 const Footer = () => {
@@ -8,7 +7,7 @@ const Footer = () => {
     <div className="bg-brown-400 pt-44 pb-24">
       <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
-          <h1 className="text-2xl">Arie Aripin</h1>
+          <h1 className="text-xl">arie.gastronomie@gmail.com</h1>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             <Link href="https://www.facebook.com/arie.aripin.984?mibextid=ZbWKwL">
               <a target="_blank" rel="noopener noreferrer">
@@ -17,9 +16,6 @@ const Footer = () => {
                 </div>
               </a>
             </Link>
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Twitter className="h-6 w-6" />
-            </div>
             <Link href="https://www.instagram.com/jakartacoffee_/?hl=id">
               <a target="_blank" rel="noopener noreferrer">
                 <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
@@ -29,7 +25,12 @@ const Footer = () => {
             </Link>
           </div>
           <p className="text-black-600">
-            ©{new Date().getFullYear()} - ariearipin.info
+            ©{new Date().getFullYear()} -{" "}
+            <Link href="https://studione.getradius.id/">
+              <a target="_blank" rel="noopener noreferrer">
+                Radius Supermedia
+              </a>
+            </Link>
           </p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">

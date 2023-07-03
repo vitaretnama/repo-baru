@@ -31,7 +31,7 @@ const Hero = (
     <div
       className="w-full bg-fixed"
       style={{
-        backgroundImage: "url('/assets/bgcoffe.jpg')",
+        backgroundImage: "url('/assets/vector.jpg')",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
@@ -47,12 +47,9 @@ const Hero = (
               <h1 className="text-4xl lg:text-7xl xl:text-6xl font-medium text-black-600 leading-normal">
                 Arie Aripin
               </h1>
-              <p className="text-black-500 mt-4 mb-6 text-2xl">
+              <p className="text-black-600 mt-4 mb-6 text-2xl font-bold">
                 Pemerhati Anak, Gen Z dan Sociopreneur
               </p>
-              <button className="py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-brown-500 hover:shadow-orange-md transition-all outline-none">
-                Video Profile
-              </button>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
