@@ -31,7 +31,8 @@ const Hero = (
     <div
       className="w-full bg-fixed"
       style={{
-        backgroundImage: "url('/assets/vector.jpg')",
+        // backgroundImage: "url('/assets/vector.jpg')",
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/vector.jpg')`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
@@ -44,10 +45,10 @@ const Hero = (
             variants={scrollAnimation}
           >
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
-              <h1 className="text-4xl lg:text-7xl xl:text-6xl font-medium text-black-600 leading-normal">
+              <h1 className="text-4xl lg:text-7xl xl:text-6xl font-medium text-red-500 leading-normal">
                 Arie Aripin
               </h1>
-              <p className="text-black-600 mt-4 mb-6 text-2xl font-bold">
+              <p className="text-red-500 mt-4 mb-6 text-2xl font-bold">
                 Pemerhati Anak, Gen Z dan Sociopreneur
               </p>
             </div>
