@@ -43,7 +43,7 @@ const Footer = () => {
               Riwayat Hidup
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Galleri
+              Galeri
             </li>
           </ul>
         </div>
